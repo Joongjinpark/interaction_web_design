@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<style>
+	html, body {
+	margin:0}
+
+.stick{	width:8px;
+			height:330px;	
+			position:absolute;
+			background-color: black;
+			top:300px;
+			left:280px;
+			border-radius: 20px;
+			transform:rotate(10deg);
+		}
+.stick1{	width:8px;
+			height:370px;	
+			position:absolute;
+			background-color: black;
+			top:305px;
+			left:325px;
+			border-radius: 20px;
+			transform:rotate(175deg);
+		}
+.stick2{	width:8px;
+			height:320px;	
+			position:absolute;
+			background-color: black;
+			top:295px;
+			left:360px;
+			border-radius: 20px;
+			transform:rotate(342deg);
+		}
+.stick3{	width:2px;
+			height:316px;	
+			position:absolute;
+			background-color: white;
+			top:295px;
+			left:364px;
+			border-radius: 20px;
+			transform:rotate(342deg)
+		}
+.stick4{	width:2px;
+			height:367px;	
+			position:absolute;
+			background-color: white;
+			top:305px;
+			left:329.5px;
+			border-radius: 20px;
+			transform:rotate(175deg);
+		}
+.stick5{	width:2px;
+			height:326px;	
+			position:absolute;
+			background-color: white;
+			top:300px;
+			left:281.5px;
+			border-radius: 20px;
+			transform:rotate(10deg);
+		}
+.stick6{	width:8px;
+			height:180px;	
+			position:absolute;
+			background-color: black;
+			top:130px;
+			left:291px;
+			border-radius: 20px;
+			transform:rotate(-10deg);
+		}
+.stick7{	width:2px;
+			height:177px;	
+			position:absolute;
+			background-color: white;
+			top:135px;
+			left:293.5px;
+			border-radius: 20px;
+			transform:rotate(-10deg);
+		}
+
+.stick8{	width:8px;
+			height:180px;	
+			position:absolute;
+			background-color: black;
+			top:130px;
+			left:313px;
+			border-radius: 20px;
+			transform:rotate(2deg);
+			z-index: -1;
+		}
+.stick9{	width:2px;
+			height:180px;	
+			position:absolute;
+			background-color: white;
+			top:130px;
+			left:317px;
+			border-radius: 20px;
+			transform:rotate(2deg);
+			z-index: 4;
+		}
+.stick10{	width:8px;
+			height:180px;	
+			position:absolute;
+			background-color: black;
+			top:130px;
+			left:330px;
+			border-radius: 20px;
+			transform:rotate(11deg);
+			z-index: -1;
+		}
+.stick11{	width:2px;
+			height:180px;	
+			position:absolute;
+			background-color: white;
+			top:130px;
+			left:333px;
+			border-radius: 20px;
+			transform:rotate(11deg);
+			z-index: 0;
+		}
+.circle{width: 5px;
+			height: 3px;
+			position:absolute;
+			background-color:white;
+			top:131.5px;
+			left:348px;
+			border-radius: 50%;
+			transform:rotate(12deg);
+			z-index: 1;
+		}
+.circle2{width: 7.5px;
+			height: 4px;
+			position:absolute;
+			background-color:black;
+			top:132px;
+			left:347px;
+			border-radius: 50%;
+			transform:rotate(12deg);
+		}
+
+.circle3{width: 8px;
+			height: 5px;
+			position:absolute;
+			background-color:black;
+			top:130px;
+			left:316px;
+			border-radius: 50%;
+			z-index: 1;
+}
+.circle4{width: 7px;
+			height: 3px;
+			position:absolute;
+			background-color:white;
+			top:130px;
+			left:316.5px;
+			border-radius: 50%;
+			z-index: 6;
+}
+.circle5{width: 10px;
+			height: 3px;
+			position:absolute;
+			background-color:white;
+			top:130px;
+			left:275.5px;
+			z-index: 1;
+			transform:rotate(-10deg);
+
+}
+
+.stick13 {	width:8px;
+			height:35px;	
+			position:absolute;
+			background-color: black;
+			top:158px;
+			left:352px;
+			border-radius: 1px;
+			transform:rotate(60deg);
+			border-radius: 20px;
+			z-index: -2;
+    	}
+.stick14 {	width:3px;
+			height:31px;	
+			position:absolute;
+			background-color: white;
+			top:161px;
+			left:355px;
+			border-radius: 1px;
+			transform:rotate(60deg);
+			border-radius: 20px;
+			z-index: -2;
+    	}
+.stick15 {	width:8px;
+			height:35px;	
+			position:absolute;
+			background-color: black;
+			top:198px;
+			left:277px;
+			border-radius: 1px;
+			transform:rotate(120deg);
+			border-radius: 20px;
+			z-index: -2;
+    	}
+.stick16 {	width:3px;
+			height:31px;	
+			position:absolute;
+			background-color: white;
+			top:201px;
+			left:280px;
+			border-radius: 1px;
+			transform:rotate(120deg);
+			border-radius: 20px;
+			z-index: -2;
+    	}
+.stick17 {	width:8px;
+			height:35px;	
+			position:absolute;
+			background-color: black;
+			top:158px;
+			left:317px;
+			border-radius: 1px;
+			transform:rotateX(40deg)rotate(10deg);
+			border-radius: 20px;
+			z-index: -2;
+    	}
+.stick18 {	width:3px;
+			height:31px;	
+			position:absolute;
+			background-color: white;
+			top:161px;
+			left:320px;
+			border-radius: 1px;
+			transform:rotateX(40deg) rotate(10deg);
+			border-radius: 20px;
+			z-index: -2;
+    	}
+.stick19 {	width:8px;
+			height:39px;	
+			position:absolute;
+			background-color: black;
+			top:218px;
+			left:306px;
+			border-radius: 1px;
+			transform:rotateX(50deg)rotate(340deg);
+			border-radius: 20px;
+			z-index: 10;
+    	}
+.stick20 {	width:3px;
+			height:35px;	
+			position:absolute;
+			background-color: white;
+			top:221px;
+			left:309px;
+			border-radius: 1px;
+			transform:rotateX(50deg) rotate(340deg);
+			border-radius: 20px;
+			z-index: 10;
+    	}
+
+</style>
+</head>
+
+<body>
+<div class="stick"></div>
+<div class="stick1"></div>
+<div class="stick2"></div>
+<div class="stick3"></div>
+<div class="stick4"></div>
+<div class="stick5"></div>
+<div class="stick6"></div>
+<div class="stick7"></div>
+<div class="stick8"></div>
+<div class="stick9"></div>
+<div class="stick10"></div>
+<div class="stick11"></div>
+<div class="circle"></div>
+<div class="circle1"></div>
+<div class="circle2"></div>
+<div class="circle3"></div>
+<div class="circle4"></div>
+<div class="circle5"></div>
+
+<div class="stick13"></div>
+<div class="stick14"></div>
+<div class="stick15"></div>
+<div class="stick16"></div>
+<div class="stick17"></div>
+<div class="stick18"></div>
+<div class="stick19"></div>
+<div class="stick20"></div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
