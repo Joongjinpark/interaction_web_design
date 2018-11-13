@@ -1,0 +1,266 @@
+/*h1 {
+	color:white;
+	text-align: center;
+	font-family: sans-serif; 
+	font-size:2.5em;
+
+
+}*/
+
+
+body {background-color:#061630;
+	background-image:url("image/star.gif");
+	height:7800px;
+	width:1366px;
+
+}
+
+/*
+main {
+  overflow: hidden;
+  background-color: var(--secondary);
+  padding-left: 16px;
+  padding-right: 16px;
+}*/
+
+.header{
+  position: fixed;
+  top: 20px;
+  right: 0;
+  left: calc(50% - 80px);
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+}
+
+
+#rock{   
+position: absolute;
+margin-top: 10%;
+margin-left:10%;
+
+}
+
+#rocks{   
+position: absolute;
+margin-top: 515px;
+margin-left:270px;
+}
+
+#moon{
+  position: absolute;
+ margin-left: 80%;
+ margin-top: 50%;
+}
+
+#person{
+  position: absolute;
+ margin-left: 80%;
+ margin-top: 45%;
+}
+
+#spaceship1{
+  position: absolute;
+ margin-left: 65%;
+ margin-top: 58%;
+}
+
+#earth{
+  position: absolute;
+ margin-left: 55%;
+ margin-top: 65%;
+}
+
+#sun{
+  position: absolute;
+ margin-left: 20%;
+ margin-top: 105%;
+}
+
+#spaceship2{
+position: absolute;
+ margin-left: 37%;
+ margin-top: 120%;
+}
+
+#planet{
+position: absolute;
+ margin-left: 20%;
+ margin-top: 130%;
+}
+
+#blackhole{
+position: absolute;
+ margin-left: 70%;
+ margin-top: 120%;
+}
+
+#blueplanet{
+position: absolute;
+ margin-left: 80%;
+ margin-top: 150%;
+}
+
+#rock2{
+position: absolute;
+ margin-left: 65%;
+ margin-top: 180%;
+}
+
+#spaceship3{
+position: absolute;
+ margin-left: 25%;
+ margin-top: 200%;
+}
+
+#sun2{
+position: absolute;
+ margin-left: 15%;
+ margin-top: 215%;
+}
+
+#rock3{
+position: absolute;
+ margin-left: 85%;
+ margin-top: 240%;
+ transform: rotate(45deg);
+}
+
+#planet2{
+position: absolute;
+ margin-left: 60%;
+ margin-top: 250%;
+}
+
+#rock4{
+position: absolute;
+ margin-left: 20%;
+ margin-top: 260%;
+}
+
+#blackhole2{
+position: absolute;
+ margin-left: 10%;
+ margin-top: 300%;
+}
+
+#person2{
+position: absolute;
+ margin-left: 25%;
+ margin-top: 320%;
+}
+
+#planet3{
+position: absolute;
+ margin-left: 10%;
+ margin-top: 330%;
+}
+
+#blackhole3{
+position: absolute;
+ margin-left: 70%;
+ margin-top: 320%;
+}
+
+#rocks2{
+position: absolute;
+ margin-left: 65%;
+ margin-top: 355%;
+}
+
+#rocks3{
+position: absolute;
+ margin-left: 5%;
+ margin-top: 375%;
+}
+
+#rocks4{
+position: absolute;
+ margin-left: 10%;
+ margin-top: 385%;
+}
+
+#rocks5{
+position: absolute;
+ margin-left: 50%;
+ margin-top: 400%;
+}
+
+#rocks6{
+position: absolute;
+ margin-left: 62%;
+ margin-top: 400%;
+}
+
+#rocks7{
+position: absolute;
+ margin-left: 70%;
+ margin-top: 425%;
+}
+
+#sun3{
+position: absolute;
+ margin-left: 70%;
+ margin-top: 400%;
+}
+
+#ailen{
+position: absolute;
+ margin-left: 82%;
+ margin-top: 394%;
+}
+
+#blackhole4{
+position: absolute;
+ margin-left: 10%;
+ margin-top: 450%;
+}
+
+#spaceship4{
+position: absolute;
+ margin-left: 20%;
+ margin-top: 468%;
+}
+
+#planet4{
+position: absolute;
+ margin-left: 37%;
+ margin-top: 500%;
+}
+
+#moon2{
+position: absolute;
+ margin-left: 65%;
+ margin-top: 500%;
+}
+
+#planet5{
+position: absolute;
+ margin-left: 20%;
+ margin-top: 540%;
+}
+
+#rock8{
+position: absolute;
+ margin-left: 10%;
+ margin-top: 575%;
+}
+
+#planet6{
+position: absolute;
+ margin-left: 60%;
+ margin-top: 590%;
+}
+
+#planet7{
+position: absolute;
+ margin-left: 60%;
+ margin-top: 600%;
+}
+
+#planet8{
+position: absolute;
+ margin-left: 80%;
+ margin-top: 590%;
+}
